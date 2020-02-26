@@ -1,0 +1,24 @@
+.root{
+    -fx-background-image: url("/Images/GOT13.jpg");
+    -fx-background-size: cover;
+    -fx-font-weight: bold;
+    -fx-font-size:120%
+}
+
+Label{
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+}
+
+#txt_thread{
+    -fx-text-fill: Black;
+
+}
+
+#chGenerator{
+    -fx-text-fill: Black;
+}
+
+#chAlgorithm{
+    -fx-text-fill: Black;
+}

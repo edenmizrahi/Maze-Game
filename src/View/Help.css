@@ -1,0 +1,7 @@
+.root{
+    -fx-background-image: url("/Images/Help.jpg");
+    -fx-background-size: cover;
+    -fx-font-weight: bold;
+    -fx-font-size:120%
+
+}

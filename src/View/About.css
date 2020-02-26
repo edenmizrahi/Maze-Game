@@ -1,0 +1,13 @@
+.root{
+    -fx-background-image: url("/Images/emptyAbout.jpg");
+    -fx-background-size: cover;
+    -fx-font-weight: bold;
+    -fx-font-size:120%
+
+}
+Label{
+
+    -fx-text-fill: white;
+    -fx-font-family:"Stencil";
+    -fx-font-size: 15;
+}

@@ -1,0 +1,29 @@
+.root{
+    -fx-background-image: url("/Images/halisiWin2.jpg");
+    -fx-background-size: cover;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-font-weight: bold;
+    -fx-font-size:120%
+}
+
+Label{
+    -fx-text-fill: white;
+    -fx-font-family:"Algerian";
+    -fx-font-size: 20;
+}
+
+#cong{
+    -fx-text-fill: white;
+    -fx-font-family:"Algerian";
+    -fx-font-size: 20;
+
+}
+
+#name{
+
+    -fx-text-fill: white;
+    -fx-font-family:"Algerian";
+    -fx-font-size: 30;
+}

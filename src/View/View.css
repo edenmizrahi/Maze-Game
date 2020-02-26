@@ -1,0 +1,91 @@
+.root{
+    /*-fx-background-color: bisque;*/
+    /*-fx-background-image: url('background4.jpg');*/
+
+}
+
+
+
+
+#Story {
+    -fx-background-color: TRANSPARENT;
+    -fx-font-family: "Algerian";
+    -fx-font-weight: bold;
+    -fx-background-image: url("/Images/antic3.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+
+    -fx-text-fill: 	MAROON;
+    -fx-font-size: 25;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+
+}
+
+#Story:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    /*-fx-text-fill: -fx-text-base-color;*/
+    -fx-text-fill: rgba(128, 0, 20, 0.96);
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+Button {
+    /*-fx-background-image: url("/Images/antic.jpg");*/
+    /*-fx-background-image: url("/Images/antic.jpg");*/
+    -fx-text-fill: black;
+    -fx-font-family: "Algerian";
+    -fx-font-weight: bold;
+    -fx-border-color:black ;
+    -fx-background-color: linear-gradient(PERU, MOCCASIN);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 20;
+}
+
+Button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-color: linear-gradient(SANDYBROWN, TAN);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-border-color:LIGHTYELLOW;
+    -fx-alignment: CENTER;
+    /*-fx-font-style: bold;*/
+    -fx-content-display: LEFT;
+}
+
+#bt_choose{
+    /*-fx-background-image: url("/Images/antic.jpg");*/
+    -fx-text-fill: black;
+    -fx-font-family: "Algerian";
+    -fx-font-weight: bold;
+    -fx-border-color:black ;
+    -fx-background-color: linear-gradient(PERU, MOCCASIN);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 14.5;
+}
+
+#bt_choose:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-color: linear-gradient(SANDYBROWN, TAN);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-border-color:LIGHTYELLOW;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+Label{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-color: linear-gradient(SANDYBROWN, TAN);
+    -fx-text-fill: Black;
+    /*-fx-font-style: bold;*/
+    -fx-font-family:"Algerian";
+    -fx-font-size: 20;
+}
